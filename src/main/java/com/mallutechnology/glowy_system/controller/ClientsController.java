@@ -13,7 +13,7 @@ public class ClientsController {
     //é um metodo do tipo string e retorna um texto
     @GetMapping("/hello")
     public String hello() {
-        return "Teste Hello World";
+        return "Teste Hello World, deu certo?";
     }
 }
 
