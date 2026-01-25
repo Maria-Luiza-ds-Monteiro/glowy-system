@@ -2,10 +2,12 @@ package com.mallutechnology.glowy_system.Model;
 
 import com.mallutechnology.glowy_system.Model.Enums.Categoria;
 import com.mallutechnology.glowy_system.Model.Enums.Status;
+import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-
+//informa ao spring que é uma classe de entidades
+@Entity
 public class Servico {
     //@: esse é o campo
     @Id
